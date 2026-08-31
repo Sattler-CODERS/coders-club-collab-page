@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Abbot Tubeine — Keeper of the Whistling Cloister</title>
+<style>
+  :root{
+    --parchment:#f3ead9;
+    --ink:#3a2e22;
+    --gold:#a6763a;
+    --deep:#5b4636;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:radial-gradient(circle at top, #efe2c9, #d8c7a2);
+    font-family: Georgia, 'Times New Roman', serif;
+    color:var(--ink);
+    display:flex;
+    justify-content:center;
+    padding:40px 16px;
+  }
+  .page{
+    max-width:720px;
+    background:var(--parchment);
+    border:1px solid var(--gold);
+    border-radius:6px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.25);
+    padding:48px 56px;
+  }
+  h1{
+    font-size:2.1em;
+    letter-spacing:1px;
+    margin-bottom:0;
+    color:var(--deep);
+    border-bottom:2px solid var(--gold);
+    padding-bottom:12px;
+  }
+  .subtitle{
+    font-style:italic;
+    color:var(--gold);
+    margin-top:6px;
+    margin-bottom:28px;
+  }
+  .drop::first-letter{
+    font-size:3.2em;
+    float:left;
+    line-height:0.8;
+    padding-right:8px;
+    color:var(--gold);
+    font-weight:bold;
+  }
+  .facts{
+    display:grid;
+    grid-template-columns:140px 1fr;
+    gap:8px 16px;
+    margin:28px 0;
+    font-size:0.95em;
+  }
+  .facts dt{font-weight:bold; color:var(--deep);}
+  .quote{
+    margin:32px 0;
+    padding:16px 20px;
+    border-left:4px solid var(--gold);
+    background:rgba(166,118,58,0.08);
+    font-style:italic;
+  }
+  footer{
+    margin-top:36px;
+    font-size:0.8em;
+    color:#8a7a63;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Abbot Tubeine</h1>
+  <p class="subtitle">Keeper of the Whistling Cloister, Patron of Lost Directions</p>
+
+  <p class="drop">Little is written of Abbot Tubeine before the Year of the Long Fog, when he arrived at the crumbling monastery of Saint Ondrel carrying nothing but a copper kettle and a single, unlabeled key. The monks who lived there swore he had walked out of the fog itself — cassock dry, boots unmuddied, humming a tune none of them recognized.</p>
+
+  <p>He never claimed sainthood, nor sought it. Instead, Abbot Tubeine became known for a peculiar ministry: helping the lost find their way — not just travelers on the moor, but the more stubbornly lost. The grieving. The undecided. Those who had simply forgotten which way they were facing in life. He kept no scripture of his own, only a battered notebook of directions, half of them geographic and half of them not.</p>
+
+  <dl class="facts">
+    <dt>Order</dt><dd>The Whistling Cloister (self-founded, membership: one)</dd>
+    <dt>Known for</dt><dd>The Kettle That Never Empties; the Left-Hand Blessing</dd>
+    <dt>Signature habit</dt><dd>Humming three notes before speaking, "to clear the fog from his throat"</dd>
+    <dt>Disappeared</dt><dd>On a Tuesday, mid-sentence, mid-blessing</dd>
+    <dt>Relics</dt><dd>One copper kettle, one unlabeled key, seventeen mismatched socks</dd>
+  </dl>
+
+  <div class="quote">
+    "You are not lost. You have simply arrived somewhere you didn't expect, and it is asking to be looked at."
+    <br>— attributed to Abbot Tubeine, recorded by a novice who forgot to write down the rest
+  </div>
+
+  <p>To this day, pilgrims who lose their way near Saint Ondrel report the smell of kettle-steam on the wind, and a three-note hum just at the edge of hearing — though whether this is Abbot Tubeine still wandering, or simply the fog remembering him, no one has ever agreed.</p>
+
+  <footer>A wholly invented figure — no such abbot, cloister, or fog appears in any historical record.</footer>
+</div>
+</body>
+</html>
